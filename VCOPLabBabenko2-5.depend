@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1746970820 source:d:\vcoplabbabenko2-4\main.cpp
+	<iostream>
+	<ca.h>
+
+1746970526 d:\vcoplabbabenko2-4\include\ca.h
+	"ix.h"
+	<iostream>
+
+1746970708 d:\vcoplabbabenko2-4\include\ix.h
+	<iostream>
+
+1747124602 source:d:\vcoplabbabenko2-5\main.cpp
+	<iostream>
+	<ca.h>
+	<cb.h>
+
+1747125316 d:\vcoplabbabenko2-5\include\ca.h
+	"ix.h"
+	<iostream>
+
+1747125316 d:\vcoplabbabenko2-5\include\ix.h
+	<iostream>
+
+1747125316 d:\vcoplabbabenko2-5\include\cb.h
+	"ix.h"
+	<iostream>
+

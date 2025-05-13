@@ -11,15 +11,11 @@ void foo(IX* pIX) {
 
 int main() {
     CA* pA = new CA(1.789);
-
     CB* pB = new CB();
-
     IX* pIX = pA;
     foo(pIX);
-
     pIX = pB;
     foo(pIX);
-
     delete pA;
     delete pB;
 
