@@ -6,6 +6,6 @@ class First {
 public:
     int x;
     First(int fx);
-    int calc();
+    virtual int calc();
     void print(std::string text);
 };

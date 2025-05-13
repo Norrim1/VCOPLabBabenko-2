@@ -4,5 +4,5 @@
 class Second : public First {
 public:
     Second(int fx);
-    int calc();
+    virtual int calc() override;
 };
