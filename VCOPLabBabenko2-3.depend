@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1746965119 source:d:\vcoplabbabenko2-3\src\ca.cpp
+	"ca.h"
+
+1746965149 d:\vcoplabbabenko2-3\include\ca.h
+	"ix.h"
+	"iy.h"
+	<iostream>
+
+1746965119 d:\vcoplabbabenko2-3\include\ix.h
+	<iostream>
+
+1746965119 d:\vcoplabbabenko2-3\include\iy.h
+	<iostream>
+

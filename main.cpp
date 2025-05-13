@@ -1,17 +1,23 @@
+#include "ca.h"
 #include <iostream>
-
-#include <third.h>
 
 using namespace std;
 
+int main() {
+    cout << "Client: create an example of component" << endl;
+    CA* pA = new CA();
 
-int main()
-{
-    First Z(1);
-    Z.print("class First: ");
-    Second X(3);
-    X.print("class Second: ");
-    Third Y(5);
-    Y.print("class Third: ");
+    IX* pIX = pA;
+    cout << "Client: using interface IX" << endl;
+    pIX->Fx1();
+    pIX->Fx2();
+    IY* pIY = pA;
+    cout << "Client: using interface IY" << endl;
+    pIY->Fy1();
+    pIY->Fy2();
+
+    cout << "Client: deleting component" << endl;
+    delete pA;
+
     return 0;
 }
