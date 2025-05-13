@@ -1,7 +1,8 @@
 #pragma once
 #include <iostream>
 
-class IX {
+class IX
+{
     public:
         virtual void Fx1() = 0;
         virtual void Fx2() = 0;
