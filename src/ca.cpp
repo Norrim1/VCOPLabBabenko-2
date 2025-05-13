@@ -1,19 +1,28 @@
 #include "ca.h"
 
-using namespace std;
-
-void CA::Fx1() {
-    cout << "Fx1" << endl;
+CA::CA(double d)
+{
+    m_Fx2 = d * d;
+    m_Fx3 = d * d * d;
+    m_Fx4 = d * d * d * d;
 }
 
-void CA::Fx2() {
-    cout << "Fx2" << endl;
+void CA::Fx1()
+{
+    cout << "CA::Fx1" << endl;
 }
 
-void CA::Fy1() {
-    cout << "Fy1" << endl;
+void CA::Fx2()
+{
+    cout << m_Fx2 << endl;
 }
 
-void CA::Fy2() {
-    cout << "Fy2" << endl;
+void CA::Fx3()
+{
+    cout << m_Fx3 << endl;
+}
+
+void CA::Fx4()
+{
+    cout << m_Fx4 << endl;
 }
