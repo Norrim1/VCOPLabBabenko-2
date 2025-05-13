@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1746962954 source:d:\vcoplabbabenko2\classes.cpp
+	<iostream>
+
+1746963246 source:d:\vcoplabbabenko2\src\first.cpp
+	"first.h"
+
+1746963246 d:\vcoplabbabenko2\include\first.h
+	<iostream>
+	<string>
+
+1746963246 source:d:\vcoplabbabenko2\src\second.cpp
+	"second.h"
+
+1746963246 d:\vcoplabbabenko2\include\second.h
+	"first.h"
+
+1746963246 source:d:\vcoplabbabenko2\src\third.cpp
+	"third.h"
+
+1746963246 d:\vcoplabbabenko2\include\third.h
+	"second.h"
+
+1746963449 source:d:\vcoplabbabenko2\main.cpp
+	<iostream>
+	<third.h>
+
